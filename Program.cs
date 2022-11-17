@@ -27,11 +27,7 @@ do
         Console.WriteLine("Какую категорию напечатать? (0)Булочки, (1)Напитки, (2)Молочка");
     } while (!(int.TryParse(Console.ReadLine(), out cat) & cat >= 0 & cat <= 2));
 
-    for (int i = 0; i < 9; i++)
-    {
-        Console.Write(names[i, cat] + "-");
-        Console.WriteLine(price[i, cat] + ",");
-    }
+    GoodsPrint(names,price,cat);
     //пора делать скидки!!!
     string sale;
     double saleValue;
@@ -53,10 +49,15 @@ do
         price[i, cat] = price[i, cat] * (1 - saleValue / 100);
         //15% ---- (1-15/100) = 1-0,15 = 0,85
     }
+    GoodsPrint(names,price,cat);
+    Console.WriteLine("Еще раз? (Д)а/(Н)ет ");
+} while (Console.ReadLine() == "Д");
+
+void GoodsPrint(string[,] _names, double[,] _price, int _cat)
+{
     for (int i = 0; i < 9; i++)
     {
-        Console.Write(names[i, cat] + "-");
-        Console.WriteLine("{0:F},", price[i, cat]);
+        Console.Write(_names[i, _cat] + "-");
+        Console.WriteLine("{0:F},", _price[i, _cat]);
     }
-    Console.WriteLine("Еще раз? (Д)а/(Н)ет ");
-} while (Console.ReadLine()=="Д");
+}
