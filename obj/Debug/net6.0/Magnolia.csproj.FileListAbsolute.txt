@@ -1,0 +1,15 @@
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\bin\Debug\net6.0\Magnolia.exe
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\bin\Debug\net6.0\Magnolia.deps.json
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\bin\Debug\net6.0\Magnolia.runtimeconfig.json
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\bin\Debug\net6.0\Magnolia.dll
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\bin\Debug\net6.0\Magnolia.pdb
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\obj\Debug\net6.0\Magnolia.csproj.AssemblyReference.cache
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\obj\Debug\net6.0\Magnolia.GeneratedMSBuildEditorConfig.editorconfig
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\obj\Debug\net6.0\Magnolia.AssemblyInfoInputs.cache
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\obj\Debug\net6.0\Magnolia.AssemblyInfo.cs
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\obj\Debug\net6.0\Magnolia.csproj.CoreCompileInputs.cache
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\obj\Debug\net6.0\Magnolia.dll
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\obj\Debug\net6.0\refint\Magnolia.dll
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\obj\Debug\net6.0\Magnolia.pdb
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\obj\Debug\net6.0\Magnolia.genruntimeconfig.cache
+D:\YandexDisk\Колледж\2022-2\pk111\Magnolia\obj\Debug\net6.0\ref\Magnolia.dll
