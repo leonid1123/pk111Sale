@@ -19,9 +19,12 @@ for (int i = 0; i < 9; i++)
     }
 }
 //вывод исходной информации
-Console.WriteLine("Какую категорию напечатать? (0)Булочки, (1)Напитки, (2)Молочка");
-string userInput = Console.ReadLine();
-int cat = int.Parse(userInput);
+int cat;
+do
+{
+    Console.WriteLine("Какую категорию напечатать? (0)Булочки, (1)Напитки, (2)Молочка");
+} while (!  (  int.TryParse(Console.ReadLine(), out cat) & cat>=0 & cat<=2  )   );
+
 for (int i = 0; i < 9; i++)
 {
     Console.Write(names[i, cat] + "-");
@@ -32,15 +35,15 @@ Console.WriteLine("Укажите величину скидки");
 string sale = Console.ReadLine();
 double saleValue = double.Parse(sale);
 Console.WriteLine("Укажите для какой категории применить скидку: (0)Булочки, (1)Напитки, (2)Молочка");
-userInput = Console.ReadLine();
+string userInput = Console.ReadLine();
 cat = int.Parse(userInput);
 for (int i = 0; i < 9; i++)
 {
-    price[i, cat] = price[i,cat]*(1-saleValue/100);
+    price[i, cat] = price[i, cat] * (1 - saleValue / 100);
     //15% ---- (1-15/100) = 1-0,15 = 0,85
 }
 for (int i = 0; i < 9; i++)
 {
     Console.Write(names[i, cat] + "-");
-    Console.WriteLine("{0:F},",price[i, cat]);
+    Console.WriteLine("{0:F},", price[i, cat]);
 }
